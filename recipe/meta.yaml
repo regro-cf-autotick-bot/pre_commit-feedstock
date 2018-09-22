@@ -1,7 +1,7 @@
 {% set name = "pre_commit" %}
-{% set version = "1.11.0" %}
+{% set version = "1.11.1" %}
 {% set hash_type = "sha256" %}
-{% set hash = "a5a14a5b63f647b58449d46de45f176a28125824d099066aab1fe8f327cf8591" %}
+{% set hash = "4a6f5073ce36a77d09e2f72a1236dc2bb63f0f7a78fbf16462fe864c2a5b2948" %}
 
 package:
   name: {{ name }}
