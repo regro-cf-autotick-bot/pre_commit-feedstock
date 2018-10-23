@@ -1,7 +1,7 @@
 {% set name = "pre_commit" %}
-{% set version = "1.11.2" %}
+{% set version = "1.12.0" %}
 {% set hash_type = "sha256" %}
-{% set hash = "68b9694c25f093805b8c30529177d25ce82310ff551fe33a8cb168535ccafe4e" %}
+{% set hash = "81fe7b1b0cba93e7d7aa3cfbfd55f5280d3639e4fcb14bf9d1b95ab35f41cf0d" %}
 
 package:
   name: {{ name }}
@@ -30,6 +30,7 @@ requirements:
     - cached-property
     - cfgv >=1.0.0
     - identify >=1.0.0
+    - importlib_metadata
     - nodeenv >=0.11.1
     - pyyaml
     - setuptools
