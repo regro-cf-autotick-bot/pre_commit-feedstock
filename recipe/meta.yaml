@@ -23,6 +23,7 @@ build:
 requirements:
   build:
     - pip
+    - python
 
   run:
     - aspy.yaml
@@ -32,6 +33,7 @@ requirements:
     - importlib_metadata
     - importlib_resources  # [py<37]
     - nodeenv >=0.11.1
+    - python
     - pyyaml
     - setuptools
     - six
