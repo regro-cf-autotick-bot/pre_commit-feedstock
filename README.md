@@ -14,8 +14,9 @@ Summary: A framework for managing and maintaining multi-language pre-commit hook
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pre_commit-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pre_commit-feedstock)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/pre_commit-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/pre_commit-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/pre_commit-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/pre_commit-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/pre_commit-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/pre-commit-feedstock/branch/master)
 
 Current release info
 ====================
