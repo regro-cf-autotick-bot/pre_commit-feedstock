@@ -13,7 +13,7 @@ source:
   {{ hash_type }}: {{ hash }}
 
 build:
-  number: 1
+  number: 1001
   script: pip install . --no-deps --ignore-installed
   entry_points:
     - pre-commit = pre_commit.main:main
