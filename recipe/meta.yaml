@@ -1,7 +1,7 @@
 {% set name = "pre_commit" %}
-{% set version = "1.14.2" %}
+{% set version = "1.14.3" %}
 {% set hash_type = "sha256" %}
-{% set hash = "692ecb9a67e2a0d9991c94f0caa0aa55ca52ede7fcbdbc1b0b6510ac2fc09acb" %}
+{% set hash = "72f5b60b47f68e6130fbb1c9d634dc549cf31d363424a58fd91abd15169a6856" %}
 
 package:
   name: {{ name }}
@@ -13,7 +13,7 @@ source:
   {{ hash_type }}: {{ hash }}
 
 build:
-  number: 1000
+  number: 0
   script: pip install . --no-deps --ignore-installed
   entry_points:
     - pre-commit = pre_commit.main:main
