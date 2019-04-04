@@ -28,7 +28,7 @@ requirements:
   run:
     - aspy.yaml
     - cached-property
-    - cfgv >=1.0.0
+    - cfgv >=1.4.0
     - futures  # [py<32]
     - identify >=1.0.0
     - importlib_metadata
@@ -64,3 +64,4 @@ extra:
   recipe-maintainers:
     - nicoddemus
     - deadsnakes-issues-bot
+    - xmnlab
