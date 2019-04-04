@@ -200,4 +200,5 @@ Feedstock Maintainers
 
 * [@deadsnakes-issues-bot](https://github.com/deadsnakes-issues-bot/)
 * [@nicoddemus](https://github.com/nicoddemus/)
+* [@xmnlab](https://github.com/xmnlab/)
 

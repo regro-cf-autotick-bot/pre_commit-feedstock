@@ -13,7 +13,7 @@ source:
   {{ hash_type }}: {{ hash }}
 
 build:
-  number: 0
+  number: 1
   script: pip install . --no-deps --ignore-installed
   entry_points:
     - pre-commit = pre_commit.main:main
@@ -28,7 +28,7 @@ requirements:
   run:
     - aspy.yaml
     - cached-property
-    - cfgv >=1.0.0
+    - cfgv >=1.4.0
     - futures  # [py<32]
     - identify >=1.0.0
     - importlib_metadata
@@ -39,7 +39,7 @@ requirements:
     - setuptools
     - six
     - toml
-    - virtualenv
+    - virtualenv >=15.2
 
 test:
   imports:
@@ -64,3 +64,4 @@ extra:
   recipe-maintainers:
     - nicoddemus
     - deadsnakes-issues-bot
+    - xmnlab
