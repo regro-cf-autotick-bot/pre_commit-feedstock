@@ -39,7 +39,7 @@ requirements:
     - setuptools
     - six
     - toml
-    - virtualenv
+    - virtualenv >=15.2
 
 test:
   imports:
